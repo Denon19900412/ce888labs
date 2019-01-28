@@ -70,10 +70,13 @@ axes.set_ylabel('Sales count')
 sns_plot2.savefig("histogram.png", bbox_inches='tight')
 sns_plot2.savefig("histogram.pdf", bbox_inches='tight')
 
-
+# bootstrap
 x = boostrap(data[:79], 79, 10, 95)
 print(x[0])
 print(".........")
 print(x[1])
 print(".........")
 print(x[2])
+
+
+
